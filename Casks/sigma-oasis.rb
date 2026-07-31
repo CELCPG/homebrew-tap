@@ -14,7 +14,7 @@ cask "sigma-oasis" do
   # Releases, so brew bootstraps the install and the app keeps itself current.
   auto_updates true
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Sigma Oasis.app"
 

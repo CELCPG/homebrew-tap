@@ -2,6 +2,7 @@
 
 ```bash
 brew tap CELCPG/tap
+brew trust celcpg/tap        # Homebrew 6+ asks before running casks from third-party taps
 brew install --cask sigma-oasis
 ```
 
