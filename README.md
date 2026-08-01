@@ -19,6 +19,10 @@ brew uninstall --cask --zap sigma-oasis
 
 ## Updating this tap after a release
 
+Automated: the `Release` workflow in CELCPG/SigmaOasis refreshes the version
+and both SHA-256s after every tag and pushes the result here. Manual fallback,
+if that job ever fails:
+
 1. Bump `version` in `Casks/sigma-oasis.rb`.
 2. Refresh the two SHA-256s:
 
