@@ -1,9 +1,9 @@
 cask "sigma-oasis" do
   arch arm: "arm64", intel: "x64"
 
-  version "2.6.0"
-  sha256 arm:   "6c35515dd64c8ddca5056f70f2afc0bfcbeff78f7241beb1418a3f8f4f1628a6",
-         intel: "339e3204f65ac6172987ab44711268b836ecbca16dc476cf6864377281c84ac5"
+  version "2.7.0"
+  sha256 arm:   "d34215c6cda15023feefc48fe9b6669a7315751a6b0ad8462c4eea233395e89c",
+         intel: "e2c5db150e149178395cdc2320e3de357d57657ed8a1061a9cb10f680c7869eb"
 
   url "https://github.com/CELCPG/SigmaOasis/releases/download/v#{version}/Sigma-Oasis-#{version}-mac-#{arch}.dmg"
   name "Sigma Oasis"
